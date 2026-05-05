@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>汽车销售智能顾问</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="app-header">
+        <div class="brand">
+          <div class="brand-logo">A</div>
+          <div>
+            <h1>汽车销售智能顾问</h1>
+            <p>输入问题，实时获取专业回复</p>
+          </div>
+        </div>
+      </header>
+
+      <main class="chat-layout">
+        <section class="chat-panel">
+          <div id="chatMessages" class="chat-messages" aria-live="polite"></div>
+
+          <form id="chatForm" class="chat-input" autocomplete="off">
+            <input
+              id="messageInput"
+              type="text"
+              placeholder="例如：卡罗拉1.2T都有哪些配置？"
+              maxlength="500"
+              required
+            />
+            <button id="sendButton" type="submit">发送</button>
+          </form>
+        </section>
+      </main>
+    </div>
+
+    <script src="./app.js?v=20260426"></script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+[project]
+name = "car-sales-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "deepagents>=0.5.3",
+    "fastapi[standard]>=0.136.0",
+    "jieba>=0.42.1",
+    "langchain>=1.2.15",
+    "langchain-anthropic>=1.4.1",
+    "langchain-community>=0.4.1",
+    "langchain-deepseek>=1.0.1",
+    "langchain-experimental>=0.4.1",
+    "langchain-ollama>=1.1.0",
+    "langchain-openai>=1.2.0",
+    "langfuse>=4.5.0",
+    "langgraph>=1.1.9",
+    "langgraph-checkpoint-postgres>=3.0.5",
+    "numpy>=2.4.4",
+    "pandas>=3.0.2",
+    "psycopg[binary]>=3.3.3",
+    "psycopg2-binary>=2.9.12",
+    "python-dotenv>=1.2.2",
+    "requests>=2.33.1",
+    "tavily-python>=0.7.23",
+]
